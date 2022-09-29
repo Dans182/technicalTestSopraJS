@@ -1,6 +1,7 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
 import { setupCounter } from './counter.js'
+import { salary } from './exercise3'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -21,3 +22,4 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
+salary()
