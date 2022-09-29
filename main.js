@@ -1,7 +1,6 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
-import { setupCounter } from './counter.js'
-import { salary } from './exercise3'
+import { salary } from './exercise 3'
 
 document.querySelector('#app').innerHTML = `
   <div>
