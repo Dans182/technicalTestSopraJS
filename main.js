@@ -1,5 +1,7 @@
 import './style.css'
 import javascriptLogo from './javascript.svg'
+import { readNumber } from './exercise 1'
+import { readPeople } from './exercise 2'
 import { salary } from './exercise 3'
 
 document.querySelector('#app').innerHTML = `
@@ -11,12 +13,11 @@ document.querySelector('#app').innerHTML = `
       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
     </a>
     <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
   </div>
 `
+readNumber();
+readPeople();
 salary()

@@ -5,7 +5,7 @@ Si es impar, que escriba todos los impares de manera descendiente desde si sí m
 Utilice la instrucción LEER NUMERO al inicio del programa para cargar un número en la variable NUMERO.
 */
 
-const readNumber = () => {
+export const readNumber = () => {
   let number = Math.floor(Math.random() * 100);
   if (number % 2 == 0) {
     for (let i = number; number >= 0; number = number - 2) {

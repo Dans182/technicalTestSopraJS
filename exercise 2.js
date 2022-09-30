@@ -11,7 +11,7 @@ que actúa como un vector de 50 posiciones.
 Cada elemento de PERSONAS es de un tipo estructurado que dispone dos campos:
 SEXO y EDAD.
 */
-const readPeople = (randomPeople) => {
+export const readPeople = (randomPeople) => {
   let legalAge = 0;
   let minor = 0;
   let legalAgeMan = 0;
